@@ -1,0 +1,7 @@
+
+module SubscriptionCode
+
+  CODE = "xxxxxxxxxxxxxxxxxxxxxx" # get this from the url when you access railscasts pro account
+  COOKIE = "xxxxxxxxxxxxxxxxxxxxxx" # when you are logged in, see the cookie token on your account in the format token=
+  TARGET_URL = "http://videos.example.com/railscasts/"  # should reside in a directory or relative path including. Assuming all content is created in railscasts directory
+end

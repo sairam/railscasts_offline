@@ -1,0 +1,10 @@
+
+for r in railscasts; do
+    cd $r
+    for i in */ ; do 
+        cd $i
+        sh get.url && rm get.url 
+        cd ..
+    done
+    cd ..
+done
